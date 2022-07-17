@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+}
+
+.main-page-title {
+    font-family: "Calibri Light";
+    font-size: 100px;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    cursor: default;
+    color: white;
+}
+
+.title-scene-centered {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    border-bottom: 3px solid black;
+    background: black;
+    z-index: 10;
+}
+
+.subtitle-scene {
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    margin-top: -30px;
+    margin-left: -25%;
+}
+
+.subtitle-scene p {
+    margin-left: 25%;
+}
+
+.subtitle-scene h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#name-input {
+    position: absolute;
+    left: 50%;
+    width: 300px;
+    margin-left: -80px;
+    height: 30px;
+    top: 240px;
+    text-indent: 5px;
+}
+
+.button-play-centered-big {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 400px;
+    height: 200px;
+    margin-left: -200px;
+    margin-top: -100px;
+    transition: background .5s;
+    background-color: rgba(0, 87, 91, 1);
+
+    font-size: 120px;
+    font-family: "Century Gothic";
+
+    color: white;
+}
+
+.button-play-centered-big:hover {
+    background-color: rgba(30, 117, 121, 1);
+}
+
+label {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 600px;
+    margin-left: -300px;
+    margin-top: 160px;
+    text-align: center;
+    font-family: "Century Gothic";
+    font-size: 30px;
+}
+
+.hash-textbox-centered {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 480px;
+    height: 30px;
+    margin-left: -240px;
+    margin-top: 120px;
+    text-align: center;
+}

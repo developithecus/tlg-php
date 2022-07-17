@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+}
+
+.main-page-title {
+    font-family: "Calibri Light";
+    font-size: 100px;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    cursor: default;
+    color: white;
+}
+
+.title-scene-centered {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    border-bottom: 3px solid black;
+    background: black;
+    z-index: 10;
+}
+
+.history-botright {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 20%;
+    height: 20%;
+    border: 1px solid lightblue;
+    overflow-y: auto;
+}
+
+.main-text-input-centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 40px;
+    margin-left: -250px;
+    margin-top: -20px;
+    font-family: "Century Gothic";
+    text-indent: 10px;
+}
+
+.player-data-bottom {
+    position: absolute;
+    left: 50%;
+    width: 40%;
+    height: 30%;
+    bottom: 10px;
+    margin-left: -20%;
+    font-size: 35px;
+    text-align: center;
+}
+
+#ally-healthbar-container {
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(245, 245, 245, 1);
+    width: 50%;
+    height: 30px;
+    border: 1px solid green;
+    text-align: left;
+}
+
+#ally-healthbar {
+    width: 100%;
+    height: 30px;
+    background: rgba(180, 255, 180, 1);
+    border: none;
+    outline: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+#enemy-data {
+    position: absolute;
+    left: 50%;
+    width: 40%;
+    height: 30%;
+    top: 160px;
+    margin-left: -20%;
+    font-size: 35px;
+    text-align: center;
+}
+
+#enemy-healthbar-container {
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(245, 245, 245, 1);
+    width: 50%;
+    height: 30px;
+    border: 1px solid red;
+    text-align: left;
+}
+
+#enemy-healthbar {
+    width: 100%;
+    height: 30px;
+    background: rgba(255, 180, 180, 1);
+    border: none;
+    outline: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.player-word-bottom-centered {
+    font-size: 70px;
+}
+
+.enemy-word-top-centered {
+    position: absolute;
+    left: 50%;
+    margin-left: -250px;
+    width: 500px;
+    height: 200px;
+    font-size: 70px;
+    text-align: center;
+    font-family: "Century Gothic";
+}
+
+.game-console {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    top: 15%;
+    right: 10px;
+    border: 1px solid red;
+}
+
+#command-panel {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: calc(100% - 165px);
+    width: 500px;
+    opacity: 1;
+    transition: opacity .5s;
+    overflow: auto;
+}
+
+#turn-number {
+    font-family:"Century Gothic";
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 5px;
+}
+
+.enemy-letter {
+    font-size: 30px;
+    font-family: "Consolas";
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 200, 200, 1);
+    border: 1px solid rgba(255, 150, 150, 1);
+    outline: none;
+    display: inline;
+}
+
+.enemy-letter:hover {
+    background: rgba(255, 170, 170, 1);
+    border: 1px solid rgba(255, 100, 100, 1);
+}
+
+.enemy-letter:disabled {
+    background: rgba(255, 210, 50, 1);
+    border: 1px solid rgba(255, 150, 50, 1);
+}
+
+.ally-letter {
+    font-size: 30px;
+    font-family: "Consolas";
+    width: 50px;
+    height: 50px;
+    background: rgba(200, 255, 200, 1);
+    border: 1px solid rgba(150, 255, 150, 1);
+    outline: none;
+    display: block;
+}
+
+.ally-letter:hover {
+    background: rgba(170, 255, 170, 1);
+    border: 1px solid rgba(100, 255, 100, 1);
+}
+
+#ready-button {
+    position: relative;
+    background: white;
+    border: 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 50px;
+    font-family: "Calibri";
+    font-size: 20px;
+    bottom: 0;
+    outline: none;
+    transition: border-color .5s, color .5s;
+}
+
+#ready-button:hover {
+    color: darkred;
+    border-top: 1px solid darkred;
+    border-bottom: 1px solid darkred;
+}
+
+.history-header {
+    width: 45%;
+    height: 35px;
+    background: aliceblue;
+    text-align: center;
+}
+
+#history-turn {
+    width: 10%;
+    height: 35px;
+}
+
+.history-input {
+    text-align: center;
+}
